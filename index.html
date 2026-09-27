@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0, viewport-fit=cover" name="viewport" />
+  <meta name="theme-color" content="#e8f4fb" />
+  <script>
+    (function () {
+      try {
+        var k = "portfolio-color-scheme-pref";
+        var v = localStorage.getItem(k);
+        if (v === "light" || v === "dark") {
+          document.documentElement.setAttribute("data-color-scheme", v);
+        }
+        var dark =
+          v === "dark" ||
+          (v !== "light" &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches);
+        var m = document.querySelector('meta[name="theme-color"]');
+        if (m) m.setAttribute("content", dark ? "#0f172a" : "#e8f4fb");
+      } catch (e) {}
+    })();
+  </script>
+  <title>Mahmoud Ali Awad Mohammad Portfolio</title>
+  <meta content="Mobile application developer — Swift, Kotlin, Dart &amp; Flutter. Cross-platform apps with polished UI and solid engineering." name="description" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Mahmoud Ali Awad Mohammad — Portfolio" />
+  <meta property="og:description"
+    content="Mobile application developer — Swift, Kotlin, Dart &amp; Flutter. Cross-platform apps with polished UI and solid engineering." />
+  <meta property="og:image" content="assets/img/logo/mainPage.png" />
+  <meta name="twitter:image" content="assets/img/logo/mainPage.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Mahmoud Ali Awad Mohammad — Portfolio" />
+  <meta name="twitter:description"
+    content="Mobile application developer — Swift, Kotlin, Dart &amp; Flutter. Cross-platform apps with polished UI and solid engineering." />
+  <meta
+    content="Mahmoud Ali Awad Mohammad Portfolio, Mahmoud Ali Awad Mohammad, Mahmoud Portfolio, Software Engineer, Mobile Applicatoin Developer, Flutter Developer, Web Developer, Front-End Developer, Desktop Developer, Programmer"
+    name="keywords" />
+  <!-- Favicons -->
+  <link href="assets/img/logo/mainPage.png" rel="icon" />
+  <link href="assets/img/logo/mainPage.png" rel="apple-touch-icon" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Google Fonts (display=swap avoids invisible text during font load) -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+    rel="stylesheet" />
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+  <!-- Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+
+<body oncontextmenu="return false;">
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top" aria-label="Header">
+    <div class="container d-flex align-items-center">
+      <a href="index.html">
+        <h1 class="logo me-auto" title="logo">
+          <img src="assets/img/hero_scetion/leftTag.png" alt="" loading="lazy" decoding="async" />
+          <a href="index.html">Mahmoud</a>
+          <a href="index.html">
+            <img src="assets/img/hero_scetion/rightTag.png" alt="" loading="lazy" decoding="async" />
+          </a>
+        </h1>
+      </a>
+      <div class="header-actions">
+        <nav id="navbar" class="navbar" aria-label="Primary">
+          <div class="mobile-nav-backdrop" aria-hidden="true"></div>
+          <ul id="primary-navigation">
+            <li title="Home" onclick="buttonAudio.play();">
+              <a class="nav-link scrollto active" href="#hero">Home</a>
+            </li>
+            <li title="About" onclick="buttonAudio.play();">
+              <a class="nav-link scrollto" href="#about">About</a>
+            </li>
+            <li title="Projects" onclick="buttonAudio.play();">
+              <a class="nav-link scrollto" href="#portfolio">Projects</a>
+            </li>
+            <li title="Tools" onclick="buttonAudio.play();">
+              <a class="nav-link scrollto" href="#tools">Tools</a>
+            </li>
+            <li title="Contact" onclick="buttonAudio.play();">
+              <a class="nav-link scrollto" href="#contact">Contact</a>
+            </li>
+            <li title="Download CV" id="list-download-cv" onclick="buttonAudio.play();">
+              <a class="nav-link scrollto"
+                href="https://www.mediafire.com/file/b13oxowfpgg7nv4/Mahmoud_AwadMohammad.pdf/file"
+                target="_blank">Download CV</a>
+            </li>
+          </ul>
+          <button type="button" class="mobile-nav-toggle" aria-expanded="false" aria-controls="primary-navigation"
+            aria-label="Open menu">
+            <span class="mobile-nav-toggle__box" aria-hidden="true">
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+              <span class="mobile-nav-toggle__bar"></span>
+            </span>
+          </button>
+        </nav>
+        <div class="theme-switcher" id="theme-switcher" role="group" aria-label="Color theme">
+          <button type="button" class="theme-switcher__btn" data-set-theme="system" title="Match system theme"
+            aria-pressed="false">
+            <i class="bi bi-circle-half" aria-hidden="true"></i><span class="visually-hidden">System</span>
+          </button>
+          <button type="button" class="theme-switcher__btn" data-set-theme="light" title="Light theme"
+            aria-pressed="false">
+            <i class="bi bi-sun-fill" aria-hidden="true"></i><span class="visually-hidden">Light</span>
+          </button>
+          <button type="button" class="theme-switcher__btn" data-set-theme="dark" title="Dark theme"
+            aria-pressed="false">
+            <i class="bi bi-moon-stars-fill" aria-hidden="true"></i><span class="visually-hidden">Dark</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="hero-engine d-flex align-items-center" aria-label="Hero Section">
+    <span class="hero-engine__aurora" aria-hidden="true"></span>
+    <div class="hero-floating-icons" aria-hidden="true">
+      <span class="hero-float-item hero-float-item--p1" style="--lx: 6%; --ty: 18%; --dur: 13s"><span class="hero-float-motion"><i
+            class="bi bi-code-slash"></i></span></span>
+      <span class="hero-float-item hero-float-item--p2" style="--lx: 88%; --ty: 24%; --dur: 16s"><span class="hero-float-motion"><i
+            class="bi bi-terminal"></i></span></span>
+      <span class="hero-float-item hero-float-item--p3" style="--lx: 4%; --ty: 62%; --dur: 14s"><span class="hero-float-motion"><i
+            class="bi bi-database"></i></span></span>
+      <span class="hero-float-item hero-float-item--p4" style="--lx: 92%; --ty: 58%; --dur: 18s"><span class="hero-float-motion"><i
+            class="bi bi-phone"></i></span></span>
+      <span class="hero-float-item hero-float-item--p5" style="--lx: 14%; --ty: 42%; --dur: 15s"><span class="hero-float-motion"><i
+            class="bi bi-window-stack"></i></span></span>
+      <span class="hero-float-item hero-float-item--p1" style="--lx: 82%; --ty: 12%; --dur: 17s"><span class="hero-float-motion"><i
+            class="bi bi-github"></i></span></span>
+      <span class="hero-float-item hero-float-item--p2" style="--lx: 78%; --ty: 76%; --dur: 12s"><span class="hero-float-motion"><i
+            class="bi bi-cpu"></i></span></span>
+      <span class="hero-float-item hero-float-item--p3" style="--lx: 10%; --ty: 82%; --dur: 19s"><span class="hero-float-motion"><i
+            class="bi bi-cloud"></i></span></span>
+      <span class="hero-float-item hero-float-item--p4" style="--lx: 52%; --ty: 8%; --dur: 14s"><span class="hero-float-motion"><i
+            class="bi bi-bug"></i></span></span>
+      <span class="hero-float-item hero-float-item--p5" style="--lx: 48%; --ty: 88%; --dur: 16s"><span class="hero-float-motion"><i
+            class="bi bi-gear-wide-connected"></i></span></span>
+      <span class="hero-float-item hero-float-item--p1" style="--lx: 34%; --ty: 28%; --dur: 20s"><span class="hero-float-motion"><i
+            class="bi bi-file-code"></i></span></span>
+      <span class="hero-float-item hero-float-item--p2" style="--lx: 66%; --ty: 38%; --dur: 11s"><span class="hero-float-motion"><i
+            class="bi bi-hdd-network"></i></span></span>
+    </div>
+    <div class="container hero-engine__content">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1"
+          data-aos="fade-up" data-aos-delay="200">
+          <h2>
+            Welcome To My Portfolio !
+            <span class="wave">
+              <img src="assets/img/hero_scetion/hi.gif" alt="hi" width="35" title="hi" loading="lazy" decoding="async" />
+            </span>
+          </h2>
+          <h1>Mahmoud Ali Awad Mohammad</h1>
+          <i class="bi bi-caret-right-fill" id="caret-text">
+            <span>I'm a <span class="auto-type"></span></span>
+          </i>
+          <div class="hero-cta d-flex flex-column align-items-center align-items-lg-stretch gap-3 w-100">
+            <div class="text-center text-lg-start w-100">
+              <a href="https://www.mediafire.com/file/b13oxowfpgg7nv4/Mahmoud_AwadMohammad.pdf/file"
+                class="btn-get-started scrollto" target="_blank" title="Download CV">Download CV</a>
+            </div>
+            <div class="info d-flex flex-nowrap justify-content-center justify-content-lg-start w-100">
+            <a href="https://www.linkedin.com/in/mahmoud-awad-mohmmad-297965287" target="_blank"
+              onclick="buttonAudio.play();">
+              <div class="con li">
+                <i class="bi bi-linkedin" title="LinkedIn"></i>
+              </div>
+            </a>
+            <a href="https://github.com/mahmoudjafaar" target="_blank" onclick="buttonAudio.play();">
+              <div class="con gh">
+                <i class="bi bi-github" title="GitHub"></i>
+              </div>
+            </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/hero_scetion/hero-img.gif" class="img-fluid animated hero-illustration"
+            alt="Decorative hero illustration" width="480" height="480" title="Hero illustration" fetchpriority="high"
+            decoding="async" sizes="(max-width: 991px) 70vw, 480px" />
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+  <main id="main">
+    <!-- ======= About Me Section ======= -->
+    <section id="about" class="about" aria-label="About Me">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h5><i>Introduction</i></h5>
+          <h2>About Me</h2>
+          <p>Background, focus areas, and education.</p>
+        </div>
+        <div class="row align-items-center g-4">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/aboutMe_scection/myPhoto.png" class="mx-auto d-block about-photo" alt="my Photo" title="my Photo"
+              loading="lazy" decoding="async" />
+          </div>
+          <div class="col-lg-6 pt-2 pt-lg-0 about-content-panel" data-aos="fade-left" data-aos-delay="100">
+            <h2 class="about-subheading d-flex justify-content-center justify-content-lg-start">
+              Who Am I ?
+            </h2>
+            <h4 class="fst-italic">
+              A Mobile Application Developer, My expertise spans Swift for iOS development, Kotlin for Android
+              development, and Dart for
+              Flutter,
+              allowing me to craft seamless cross-platform applications.
+              <br>
+              I'm adept at leveraging frameworks like Flutter
+              to build dynamic, responsive, and user-friendly interfaces. My proficiency in these technologies enables
+              me to deliver
+              high-quality, efficient, and scalable solutions across various platforms.
+            </h4>
+            <hr class="about-divider" />
+            <h2 class="about-subheading d-flex justify-content-center justify-content-lg-start">
+              Education
+            </h2>
+            <h3>⏹️ Associate Degree TCI Software Engineering</h3>
+            <h4>
+              <pre>    Damascus University [ 16/09/2020 – 20/09/2022 ]</pre>
+            </h4>
+            <h5>
+              <pre>     Final grade: 80.82%</pre>
+            </h5>
+            <hr id="sperator" />
+            <h3>⏹️ Bachelor's Degree in Computer Technologies</h3>
+            <h4>
+              <pre>    Damascus University [ 18/09/2022 – 16/08/2026 ]</pre>
+            </h4>
+            <h5>
+              <pre>     Final grade: _%</pre>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Me Section -->
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio" aria-label="My Portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h5><i>Selected work</i></h5>
+          <h2>Portfolio</h2>
+          <p>Mobile and desktop projects.</p>
+        </div>
+        <ul id="portfolio-flters" class="d-flex justify-content-center flex-wrap" role="group"
+          aria-label="Filter projects by category" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active" title="Show all projects" role="button" tabindex="0"
+            aria-pressed="true" onclick="buttonAudio.play();">
+            All
+          </li>
+          <li data-filter=".filter-mobile" title="Mobile projects" role="button" tabindex="0" aria-pressed="false"
+            onclick="buttonAudio.play();">
+            Mobile
+          </li>
+          <li data-filter=".filter-desktop" title="Desktop projects" role="button" tabindex="0" aria-pressed="false"
+            onclick="buttonAudio.play();">
+            Desktop
+          </li>
+        </ul>
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+          
+          
+          
+          
+          
+          
+          
+        
+          
+          
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-mobile">
+            <div class="portfolio-img">
+              <img src="assets/img/portfolio/ponderMore/1_Intro.png" class="img-fluid" alt="" decoding="async" />
+            </div>
+            <div class="portfolio-info">
+              <h4>MYMedicine</h4>
+              <p>Mobile Application</p>
+              <div class="links">
+                <a onclick="buttonAudio.play();" href="assets/img/portfolio/ponderMore/1_Intro.png"
+                  data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bi bi-aspect-ratio"
+                    title="Zoom in"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-desktop">
+            <div class="portfolio-img">
+              <img src="assets/img/portfolio/mallToGo/1_Intro.png" class="img-fluid" alt="" decoding="async" />
+            </div>
+            <div class="portfolio-info">
+              <h4>Mall To Go</h4>
+              <p>Desktop Applicatoin</p>
+              <div class="links">
+                <a onclick="buttonAudio.play();" href="assets/img/portfolio/mallToGo/1_Intro.png"
+                  data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"><i class="bi bi-aspect-ratio"
+                    title="Zoom in"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Portfolio Section -->
+    <!-- ======= Tools Section ======= -->
+    <section id="tools" class="tools section-bg" aria-label="Tools used">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h5><i>Toolkit</i></h5>
+          <h2>Tools</h2>
+          <p>Software and tools I use for development and design.</p>
+        </div>
+        <div class="row">
+          <ol>
+            <li style="--accent-color: #ab47bc">
+              <div class="icon">
+                <img src="assets/icons/visualStudio.png" alt="Visual Studio Icon" title="Visual Studio Icon"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="title">Visual Studio</div>
+              <div class="descr">
+                I worked with him so much For Developing Web Application and
+                Desktop Application using C# .NET Framework
+              </div>
+            </li>
+            <li style="--accent-color: #3ddc84">
+              <div class="icon">
+                <img src="assets/icons/androidStudio.png" alt="Android Studio Icon" title="Android Studio Icon"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="title">Android Studio</div>
+              <div class="descr more-than">
+                I used it so much For Developing Mobile Application
+              </div>
+            </li>
+            <li style="--accent-color: #0078d7">
+              <div class="icon">
+                <img src="assets/icons/visualStudioCode.png" alt="Visual Studio Code Icon"
+                  title="Visual Studio Code Icon" loading="lazy" decoding="async" />
+              </div>
+              <div class="title">Visual Studio Code</div>
+              <div class="descr more-than">
+                I worked with him for Build and Developing Websites and much
+                more
+              </div>
+            </li>
+            <li style="--accent-color: #f34f29">
+              <div class="icon">
+                <img src="assets/icons/git.png" alt="Git Icon" title="Git Icon" loading="lazy" decoding="async" />
+              </div>
+              <div class="title">Git</div>
+              <div class="descr more-than">
+                Tool used for source code management, Version control system
+                <span>(GitHub , GitLab)</span>
+              </div>
+            </li>
+            
+            
+            <li style="--accent-color: #cc3233">
+              <div class="icon">
+                <img src="assets/icons/visualParadigm.png" alt="Visual Paradigm Icon" title="Visual Paradigm Icon"
+                  loading="lazy" decoding="async" />
+              </div>
+              <div class="title">Visual Paradigm</div>
+              <div class="descr">
+                Supports Notation of UML models, as well as report generation
+                and code Engineering Capabilities
+              </div>
+            </li>
+            <li style="--accent-color: #f36933">
+              <div class="icon">
+                <img src="assets/icons/postman.png" alt="Postman Icon" title="Postman Icon" loading="lazy" decoding="async" />
+              </div>
+              <div class="title">Postman</div>
+              <div class="descr">
+                A Standalone Software Testing API platform to Build, Test,
+                Design, Modify, and Document APIs
+              </div>
+            </li>
+            <li style="--accent-color: #333">
+              <div class="icon">
+                <img src="assets/icons/figma.png" alt="Figma Icon" title="Figma Icon" loading="lazy" decoding="async" />
+              </div>
+              <div class="title">Figma</div>
+              <div class="descr">
+                A Powerful Web-based Design Tool that helps me Create
+                <span>Websites & Application</span> and much more
+              </div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+    <!-- End Tools Section -->
+    <!-- ======= techniquess Section ======= -->
+    <section id="techniques" class="techniques techniques-engine" aria-label="Techniques used">
+      <span class="techniques-engine__aurora" aria-hidden="true"></span>
+      
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h5><i>Stack</i></h5>
+          <h2>Techniques</h2>
+          <p>Languages and frameworks I work with.</p>
+        </div>
+        <div class="slides-3 swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="techniques-wrap">
+                <div class="techniques-item">
+                  <div class="d-flex align-items-center justify-content-center">
+                    <img src="assets/img/techniques_section/dart.png" class="techniques-img img-fluid" alt="Dart"
+                      title="Dart" loading="lazy" decoding="async" />
+                  </div>
+                  <h3>Dart</h3>
+                </div>
+              </div>
+            </div>
+            <!-- End techniques item -->
+            <div class="swiper-slide">
+              <div class="techniques-wrap">
+                <div class="techniques-item">
+                  <div class="d-flex align-items-center justify-content-center">
+                    <img src="assets/img/techniques_section/flutter.png" class="techniques-img img-fluid" alt="Flutter"
+                      title="Flutter" loading="lazy" decoding="async" />
+                  </div>
+                  <h3>Flutter</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+    <!-- End techniquess Section -->
+    <section id="contact" class="contact section-bg" aria-label="Contact Me">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h5><i>Get in touch</i></h5>
+          <h2>Contact</h2>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-md-6 mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box" title="Address">
+              <div class="icon"><i class="bi bi-geo-alt"></i></div>
+              <h4>Address</h4>
+              <p> Damascus <span>(Syria)</span></p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box" title="Phone">
+              <div class="icon"><i class="bi bi-telephone"></i></div>
+              <h4>Phone</h4>
+              <p><span>(+963)</span> 994553694</p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-md-6 mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box" title="Email">
+              <div class="icon"><i class="bi bi-envelope"></i></div>
+              <h4>Email</h4>
+              <p>syaf14608@gmail.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End main -->
+  <div id="preloader"></div>
+  <a onclick="buttonAudio.play();" href="#" title="Up"
+    class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- Vendor + app (defer: non-blocking parse; order preserved) -->
+  <script defer src="assets/vendor/typed/typed.js"></script>
+  <script defer src="assets/vendor/aos/aos.js"></script>
+  <script defer src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script defer src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script defer src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script defer src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script defer src="assets/js/theme-switcher.js"></script>
+  <script defer src="assets/js/main.js"></script>
+  <script defer src="assets/js/index-init.js"></script>
+</body>
+
+</html>
