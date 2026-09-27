@@ -459,7 +459,7 @@ window.matchMedia("(min-width: 992px)").addEventListener("change", (e) => {
     "</nav>" +
     '<div class="copyright">' +
     '<span class="reserved"> &copy; Copyright </span>' +
-    "<strong><span>Mahmoud AL-Bndkji</span></strong>" +
+    "<strong><span>Mahmoud Awad Mohammad</span></strong>" +
     "</div>" +
     '<div class="developed">' +
     'Developed with <span title="Thanks For Browsing">&#10084;</span>' +
