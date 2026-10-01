@@ -102,34 +102,18 @@
       }
     ]
   },
-  "newpark_agents": {
-    "metaTitle": "NewPark Agents Details",
-    "metaDescription": "The main idea of the application is to facilitate the work of customers so that they can create orders and follow up on their status, in addition to many features such as archive of previous orders, returns, inventory, and many other features.",
-    "metaKeywords": "Mobile Application, Flutter Application, NewPark Agents Application, NewPark Agents App",
+  "my_medicine": {
+    "metaTitle": "My Medicine Details",
+    "metaDescription": "A smart mobile application dedicated to medication management, designed to help the elderly and individuals with chronic conditions adhere to their treatment schedules. The app offers a comprehensive management system that allows users to add medications, set up to three daily doses, select specific days of the week for each medication, and track remaining pill counts while receiving low-stock alerts. The app features scheduled notifications and supports manual logging of medication intake if a dose is taken outside its designated time. Additionally, medications can be assigned to specific categories—such as painkillers or vitamins—and users can generate daily or weekly medication reports for each patient, The application features a simple, user-friendly interface and supports both Arabic and English. It also offers a (Dark Mode) option, making it a practical and effective solution for improving medication adherence and easing the burden of medication tracking for patients and their families.",
+    "metaKeywords": "Mobile Application, Flutter Application, My Medicine Application, My Medicine App",
     "favicon": "assets/img/logo/mainPage.png",
-    "breadcrumbLabel": "NewPark Agents",
-    "pageHeading": "NewPark Agents Details",
+    "breadcrumbLabel": "My Medicine",
+    "pageHeading": "My Medicine Details",
     "category": "Mobile Application",
-    "projectDate": "28 Aug, 2023 ➡️ 20 Sep, 2024",
-    "descriptionHtml": "The main idea of the application is to facilitate the work of customers so that they can create orders and follow up on their status, in addition to many features such as archive of previous orders, returns, inventory, and many other features.",
-    "storeButtons": [
-      {
-        "variant": "apple",
-        "href": "https://apps.apple.com/tr/app/newpark-agents/id6476807006?l=tr",
-        "subtitle": "Download on the",
-        "title": "App Store"
-      },
-      {
-        "variant": "google",
-        "href": "https://play.google.com/store/apps/details?id=newpark.agentMobileApplication&hl=en_US&gl=US",
-        "subtitle": "Get It On",
-        "title": "Google Play"
-      }
-    ],
+    "projectDate": "15 Feb, 2026 ➡️ 02 Sep, 2026",
+    "descriptionHtml": "The core concept of the application is to simplify tasks for users; it allows them to add medications and offers various other features, such as deleting medications, refilling prescriptions, categorizing medications, generating medication reports, and much more.",
     "technologies": [
-      "Flutter",
-      "Firebase Cloud Messaging For Notification",
-      "State Management : Bloc"
+      "Flutter"
     ],
     "technologiesTitle": "Languages and Technologies used",
     "gallery": [
