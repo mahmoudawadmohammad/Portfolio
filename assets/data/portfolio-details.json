@@ -118,24 +118,29 @@
     "technologiesTitle": "Languages and Technologies used",
     "gallery": [
       {
-        "title": "Categories & Products Pages",
-        "src": "assets/img/portfolio/mymedicine/2_Categories_and_Products_Pages.png",
-        "alt": "Categories & Products Pages"
+        "title": "Home Page",
+        "src": "assets/img/portfolio/mymedicine/Home_Page.jpg",
+        "alt": "Home Page"
       },
       {
-        "title": "Cart Pages",
-        "src": "assets/img/portfolio/mymedicine/3_Cart_Pages.png",
-        "alt": "Cart Pages"
+        "title": "Add New Medicine Page",
+        "src": "assets/img/portfolio/mymedicine/Add_Medicine.jpg",
+        "alt": "Add New Medicine Page"
+      },
+      {
+        "title": "Add New Category Page",
+        "src": "assets/img/portfolio/mymedicine/Add_Category.jpg",
+        "alt": "Add New Category Page"
+      },
+      {
+        "title": "Categories Page",
+        "src": "assets/img/portfolio/mymedicine/Categories.png",
+        "alt": "Categories Page"
       },
       {
         "title": "Reports Page",
-        "src": "assets/img/portfolio/mymedicine/4_Report_Page.png",
+        "src": "assets/img/portfolio/mymedicine/Reports.jpg",
         "alt": "Reports Page"
-      },
-      {
-        "title": "Orders Pages",
-        "src": "assets/img/portfolio/mymedicine/5_Orders_Pages.png",
-        "alt": "Orders Page"
       }
     ]
   }
