@@ -131,7 +131,7 @@ const portfolioDetails = {
     "gallery": [
       {
         "title": "Home Page",
-        "src": "assets/img/portfolio/mymedicine/Home_Page.jpg",
+        "src": "assets/img/portfolio/mymedicine/Home_Page.png",
         "alt": "Home Page"
       },
       {
@@ -141,17 +141,17 @@ const portfolioDetails = {
       },
       {
         "title": "Add New Category Page",
-        "src": "assets/img/portfolio/mymedicine/Add_Category.jpg",
+        "src": "assets/img/portfolio/mymedicine/Add_Category.png",
         "alt": "Add New Category Page"
       },
       {
         "title": "Categories Page",
-        "src": "assets/img/portfolio/mymedicine/Categories.jpg",
+        "src": "assets/img/portfolio/mymedicine/Categories.png",
         "alt": "Categories Page"
       },
       {
         "title": "Reports Page",
-        "src": "assets/img/portfolio/mymedicine/Reports.jpg",
+        "src": "assets/img/portfolio/mymedicine/Reports.png",
         "alt": "Reports Page"
       }
     ]
