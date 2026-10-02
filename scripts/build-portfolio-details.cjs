@@ -146,7 +146,7 @@ const portfolioDetails = {
       },
       {
         "title": "Categories Page",
-        "src": "assets/img/portfolio/mymedicine/Categories.png",
+        "src": "assets/img/portfolio/mymedicine/Categories.jpg",
         "alt": "Categories Page"
       },
       {
