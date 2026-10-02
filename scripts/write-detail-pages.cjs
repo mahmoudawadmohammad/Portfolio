@@ -15,6 +15,7 @@ const pages = {
   "lister_details.html": "lister",
   "mallToGo_details.html": "mallToGo",
   "my_medicine_details.html": "my_medicine",
+  "smart_pill_box_details.html": "smart_pill_box",
 };
 
 for (const [filename, id] of Object.entries(pages)) {

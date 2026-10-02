@@ -155,6 +155,44 @@ const portfolioDetails = {
         "alt": "Reports Page"
       }
     ]
+  },
+  smart_pill_box: {
+    "metaTitle": "Smart Pill Box Details",
+    "metaDescription": "Smart mobile application for medication management, designed to help elderly people and those with chronic illnesses adhere to their treatment schedules. The app provides an integrated system for managing medicines and smart drawers, allowing users to add medications with up to three daily doses, select specific weekdays for each medicine, and track the remaining pill count with alerts when running low. The app features scheduled notifications that reach the user, and supports manual intake if a dose is taken outside its scheduled time. It can also connect to an electronic device via Bluetooth to open the drawers automatically when it is time for a dose. The app is characterized by a simple and user-friendly interface, supports both Arabic and English languages, and includes dark mode, making it a practical and effective solution for improving medication adherence and reducing the burden of medication tracking for patients and their families .",
+    "metaKeywords": "Mobile Application, Flutter Application, Smart Pill Box Application, Smart Pill Box App",
+    "favicon": "assets/img/logo/mainPage.png",
+    "breadcrumbLabel": "Smart Pill Box",
+    "pageHeading": "Smart Pill Box Details",
+    "category": "Mobile Application & Hardware",
+    "projectDate": "06 Oct, 2025 ➡️ 11 Aug, 2026",
+    "descriptionHtml": "The core concept behind the app and the accompanying box is to make taking medication easier for the elderly; it allows them to add medications and offers various other features, such as deleting a medication, refilling a compartment, filling a water cup, and much more.",
+    "technologies": [
+      "Flutter",
+      "Arduano/C++",
+    ],
+    "technologiesTitle": "Languages and Technologies used",
+    "gallery": [
+      {
+        "title": "Home Page",
+        "src": "assets/img/portfolio/smartpillbox/Home_Page.png",
+        "alt": "Home Page"
+      },
+      {
+        "title": "Add New Medicine Page",
+        "src": "assets/img/portfolio/smartpillbox/Add_Medicine.png",
+        "alt": "Add New Medicine Page"
+      },
+      {
+        "title": "Bluetooth Page",
+        "src": "assets/img/portfolio/smartpillbox/Bluetooth.png",
+        "alt": "Bluetooth Page"
+      },
+      {
+        "title": "Sittings Page",
+        "src": "assets/img/portfolio/smartpillbox/Sittings.png",
+        "alt": "Sittings Page"
+      }
+    ]
   }
 };
 
