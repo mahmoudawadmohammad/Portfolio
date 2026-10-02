@@ -136,7 +136,7 @@ const portfolioDetails = {
       },
       {
         "title": "Add New Medicine Page",
-        "src": "assets/img/portfolio/mymedicine/Add_Medicine.jpg",
+        "src": "assets/img/portfolio/mymedicine/Add_Medicine.png",
         "alt": "Add New Medicine Page"
       },
       {
