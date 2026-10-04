@@ -6,8 +6,7 @@
 (function () {
   "use strict";
 
-  var CV_HREF =
-    "https://www.mediafire.com/file/i0ihzun0ms4ds6k/CV-Mahmoud+Awad+Mohammad.pdf/file";
+  var CV_HREF = "https://www.mediafire.com/file/71652u3v2f4gwb8/CV-Mahmoud_Awad_Mohammad.pdf/file";
 
   function escapeHtml(s) {
     if (s == null) return "";

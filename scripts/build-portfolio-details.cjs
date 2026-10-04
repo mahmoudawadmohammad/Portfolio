@@ -10,69 +10,75 @@ const outDir = path.join(root, "assets", "data");
 const outFile = path.join(outDir, "portfolio-details.json");
 
 const portfolioDetails = {
-  lister: {
-    metaTitle: "Lister Details",
-    metaDescription:
-      "Food Delivery app that have phone branch and web branch and back end maid from asp.net core api and my SQL database ,I personally worked with the web branch I did interfaces fully dynamic the front end UI using html ,css, js, bootstrap ,and more libraries for styling like fontawesome ,animations,and many other design libraries to achieve a dynamic fully functional wep app .",
-    metaKeywords:
-      "Web Application, Website for Management, DashBoard Admin & Owner Restaurant, Contol Panel Admin & Owner Restaurant, Food Delivery Application ",
-    favicon: "assets/img/logo/restaurant.png",
-    breadcrumbLabel: "Lister",
-    pageHeading: "Lister Details",
-    category: "Web Application",
-    projectDate: "16 Aug, 2021 ➡️ 13 Jun, 2022",
-    descriptionHtml:
-      "Food Delivery app that have phone branch and web branch and back end maid from asp.net core api and my SQL database ,I personally worked with the web branch I did interfaces fully dynamic the front end UI using html ,css, js, bootstrap ,and more libraries for styling like fontawesome ,animations,and many other design libraries to achieve a dynamic fully functional wep app .",
-    teamMembers: "5",
-    technologies: ["HTML", "CSS", "JavaScript", "JQuery", "BootStrap"],
-    technologiesTitle: "Languages ​​and Technologies used",
-    gallery: [
-      {
-        title: "Create Account Screen",
-        src: "assets/img/portfolio/lister/2_Create_Account_Screen.png",
-        alt: "Create Account Screen",
-      },
-      {
-        title: "Home Screen",
-        src: "assets/img/portfolio/lister/3_Home_Screen.png",
-        alt: "Home Screen",
-      },
-      {
-        title: "Home Screen",
-        src: "assets/img/portfolio/lister/4_Home_Screen.png",
-        alt: "Home Screen",
-      },
-      {
-        title: "Forget Password Verification Screen",
-        src: "assets/img/portfolio/lister/5_Forget_Password_Verification_Screen.png",
-        alt: "Forget Password Verification Screen",
-      },
-      {
-        title: "Google Map Screen",
-        src: "assets/img/portfolio/lister/6_Google_Map_Screen.png",
-        alt: "Google Map Screen",
-      },
-      {
-        title: "Menu Screen",
-        src: "assets/img/portfolio/lister/7_Menu_Screen.png",
-        alt: "Menu Screen",
-      },
-      {
-        title: "Menu Screen",
-        src: "assets/img/portfolio/lister/8_Menu_Screen.png",
-        alt: "Menu Screen",
-      },
-      {
-        title: "Menu Screen",
-        src: "assets/img/portfolio/lister/9_Menu_Screen.png",
-        alt: "Menu Screen",
-      },
-      {
-        title: "Menu Screen",
-        src: "assets/img/portfolio/lister/10_Menu_Screen.png",
-        alt: "Menu Screen",
-      },
+   lister: {
+    "metaTitle": "Lister Details",
+    "metaDescription": "Lister Delivery app that have phone pranch and web pranch and back end maid from asp.net core api and mySQL database ,I personally worked with the mobile pranch I did interfaces responsive UI using flutter,and use more libraries for animation and many other design libraries for dynamic fully functinoal mobile app .",
+    "metaKeywords": "Web Application, Website for Management, DashBoard Admin & Owner Restaurant, Contol Panel Admin & Owner Restaurant, Food Delivery Application ",
+    "favicon": "assets/img/logo/restaurant.png",
+    "breadcrumbLabel": "Lister",
+    "pageHeading": "Lister Details",
+    "category": "Mobile & Web Application",
+    "projectDate": "16 Aug, 2021 ➡️ 16 Jul, 2022",
+    "descriptionHtml": "Lister Delivery app that have phone pranch and web pranch and back end maid from asp.net core api and mySQL database ,I personally worked with the mobile pranch I did interfaces responsive UI using flutter,and use more libraries for animation and many other design libraries for dynamic fully functinoal mobile app.",
+    "teamMembers": "5",
+    "technologies": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "JQuery",
+      "BootStrap",
+      "Flutter",
+      "MySQL",
+      "ASP.NET Core API"
     ],
+    "technologiesTitle": "Languages ​​and Technologies used",
+    "gallery": [
+      {
+        "title": "Create Account Screen",
+        "src": "assets/img/portfolio/lister/2_Create_Account_Screen.png",
+        "alt": "Create Account Screen"
+      },
+      {
+        "title": "Home Screen",
+        "src": "assets/img/portfolio/lister/3_Home_Screen.png",
+        "alt": "Home Screen"
+      },
+      {
+        "title": "Home Screen",
+        "src": "assets/img/portfolio/lister/4_Home_Screen.png",
+        "alt": "Home Screen"
+      },
+      {
+        "title": "Forget Password Verification Screen",
+        "src": "assets/img/portfolio/lister/5_Forget_Password_Verification_Screen.png",
+        "alt": "Forget Password Verification Screen"
+      },
+      {
+        "title": "Google Map Screen",
+        "src": "assets/img/portfolio/lister/6_Google_Map_Screen.png",
+        "alt": "Google Map Screen"
+      },
+      {
+        "title": "Menu Screen",
+        "src": "assets/img/portfolio/lister/7_Menu_Screen.png",
+        "alt": "Menu Screen"
+      },
+      {
+        "title": "Menu Screen",
+        "src": "assets/img/portfolio/lister/8_Menu_Screen.png",
+        "alt": "Menu Screen"
+      },
+      {
+        "title": "Menu Screen",
+        "src": "assets/img/portfolio/lister/9_Menu_Screen.png",
+        "alt": "Menu Screen"
+      },
+      {
+        "title": "Menu Screen",
+        "src": "assets/img/portfolio/lister/10_Menu_Screen.png",
+        "alt": "Menu Screen"
+      }
+    ]
   },
 
   mallToGo: {
