@@ -131,10 +131,16 @@ const portfolioDetails = {
     "projectDate": "15 Feb, 2026 ➡️ 02 Sep, 2026",
     "descriptionHtml": "The core concept of the application is to simplify tasks for users; it allows them to add medications and offers various other features, such as deleting medications, refilling prescriptions, categorizing medications, generating medication reports, and much more.",
     "technologies": [
-      "Flutter"
+      "Flutter",
+      "Firebase Authentication"
     ],
     "technologiesTitle": "Languages and Technologies used",
     "gallery": [
+      {
+        "title": "Authentication",
+        "src": "assets/img/portfolio/mymedicine/Authentication.jpg",
+        "alt": "Authentication"
+      },
       {
         "title": "Home Page",
         "src": "assets/img/portfolio/mymedicine/Home_Page.png",

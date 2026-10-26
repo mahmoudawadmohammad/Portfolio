@@ -122,6 +122,11 @@
     "technologiesTitle": "Languages and Technologies used",
     "gallery": [
       {
+        "title": "Authentication",
+        "src": "assets/img/portfolio/mymedicine/Authentication.jpg",
+        "alt": "Authentication"
+      },
+      {
         "title": "Home Page",
         "src": "assets/img/portfolio/mymedicine/Home_Page.png",
         "alt": "Home Page"
