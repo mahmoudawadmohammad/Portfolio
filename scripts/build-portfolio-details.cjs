@@ -10,6 +10,57 @@ const outDir = path.join(root, "assets", "data");
 const outFile = path.join(outDir, "portfolio-details.json");
 
 const portfolioDetails = {
+  my_task: {
+    "metaTitle": "My Task Details",
+    "metaDescription": "A smart mobile application designed for daily task management, created to help individuals organize their time throughout the day. The app offers a comprehensive system that allows users to add tasks, assign each one to a specific day of the month, track deadlines, and receive alerts as time runs out. It also features scheduled reminders and supports manual logging of task completion. Furthermore, tasks can be categorized—for instance, as regular or very important —and users can generate reports. The application boasts a simple, user-friendly interface, supports both Arabic and English, and includes a Dark Mode option, making it a practical and effective solution for improving time management and easing the burden of keeping track of one's schedule.",
+    "metaKeywords": "Mobile Application, Flutter Application, My Task Application, My Task App",
+    "favicon": "assets/img/logo/mainPage.png",
+    "breadcrumbLabel": "My Task",
+    "pageHeading": "My Task Details",
+    "category": "Mobile Application",
+    "projectDate": "09 May, 2026 ➡️ 24 Oct, 2026",
+    "descriptionHtml": "The core concept of the application is to simplify tasks for users; it allows them to add tasks with specific deadlines, while also offering a variety of other features—such as deleting or editing tasks, categorizing them, generating reports on them, and much more.",
+    "technologies": [
+      "Flutter",
+      "Firebase Authentication",
+      "Firebase Cloud Messaging (FCM)",
+      "Shared Preferences",
+      "Firebase Firestore"
+    ],
+    "technologiesTitle": "Languages and Technologies used",
+    "gallery": [
+      {
+        "title": "Authentication",
+        "src": "assets/img/portfolio/mytask/Authentication.png",
+        "alt": "Authentication"
+      },
+      {
+        "title": "Home Page",
+        "src": "assets/img/portfolio/mytask/Home_Page.png",
+        "alt": "Home Page"
+      },
+      {
+        "title": "Create Task",
+        "src": "assets/img/portfolio/mytask/Create_Task.png",
+        "alt": "Create Task"
+      },
+      {
+        "title": "Notifications",
+        "src": "assets/img/portfolio/mytask/Notifications.png",
+        "alt": "Notifications"
+      },
+      {
+        "title": "Reports Page",
+        "src": "assets/img/portfolio/mytask/Reports.png",
+        "alt": "Reports Page"
+      },
+      {
+        "title": "Settings Page",
+        "src": "assets/img/portfolio/mytask/Settings.png",
+        "alt": "Settings Page"
+      }
+    ]
+  },
    lister: {
     "metaTitle": "Lister Details",
     "metaDescription": "Lister Delivery app that have phone pranch and web pranch and back end maid from asp.net core api and mySQL database ,I personally worked with the mobile pranch I did interfaces responsive UI using flutter,and use more libraries for animation and many other design libraries for dynamic fully functinoal mobile app .",
